@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1700px;
+    /* border: 1px solid var(--color-white); */
+
+}
+
+.teamWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title{
+    /* border: 1px solid var(--color-white); */
+    text-align: center;
+    font-family: "Inter";
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    color: var(--color-white)
+}

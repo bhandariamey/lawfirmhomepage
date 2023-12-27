@@ -1,0 +1,42 @@
+.parentWrapper{
+    /* border: 1px solid var(--color-white); */
+    margin-top: 53px;
+    margin-left: 103px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1135px;
+    cursor: pointer;
+}
+
+.logo{
+    height: 30.3px;
+}
+
+.wrapper{
+    width: 431px;
+    display: flex;
+    flex-direction: row;
+    color: var(--color-white);
+    justify-content: space-around;
+}
+
+.wrapper p{
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.contact{
+    border: 2px solid var(--color-white);
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 14px 40px;
+
+}

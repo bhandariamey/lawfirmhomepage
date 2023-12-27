@@ -1,0 +1,74 @@
+.wrapper{
+    background-color: rgba(71, 71, 71, 0.5);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2200px;
+    margin: 0px 80px;
+}
+
+.title{
+    margin:93px 0px 42px 0px;
+    font-family: "Helvetica Now Display";
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.input{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 93px;
+}
+
+.name{
+    box-sizing: border-box;
+    width:276px;
+    font-family: "Helvetica Now Display";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(129, 129, 129, 1);
+    border-radius: 8px 0px 0px 8px;
+    background-color: var(--color-white);
+    border: none;
+    margin-right: 9px;
+    padding-left: 20px;
+}
+
+.email{
+    box-sizing: border-box;
+    width:276px;
+    font-family: "Helvetica Now Display";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgba(129, 129, 129, 1);
+    background-color: var(--color-white);
+    border: none;
+    margin-right: 9px;
+    padding-left: 20px;
+}
+
+.button{
+    color: var(--color-black);
+    width: 116px;
+    height: 53px;
+    font-family: "Helvetica Now Display";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    border: none;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border-radius: 0px 8px 8px 0px;
+}

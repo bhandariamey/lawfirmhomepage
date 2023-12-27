@@ -1,0 +1,130 @@
+.wrapper{
+    position: absolute;
+    top: 250px;
+    left: 103px;
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    width: 571px;
+}
+.tag1{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 97.37px;
+    margin: 0px;
+}
+.tag2{
+    margin: 0px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 97.37px;
+}
+.body{
+    width: 560px;
+    height: 99px;
+    opacity: 30%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29.25px;
+    font-family: "Inter";
+}
+
+.image{
+    position: absolute;
+    width: 443.51px;
+    height: 509.07px;
+    left: 832.32px;
+    top: 172px
+}
+
+.input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 438px;
+    height:74px;
+    border-radius: 43px;
+    background-color: var(--color-white);
+}
+
+.messageIcon{
+    position: absolute;
+    left: 28px;
+    top: 24px;
+}
+
+.inputBar{
+    position: absolute;
+    left: 62px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 190px;
+    height: 26px;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26;
+    color: var(--color-black);
+}
+
+.button{
+    cursor: pointer;
+    position: absolute;
+    width: 137px;
+    height: 62px;
+    border-radius: 43px;
+    background-color: var(--color-primary);
+    color: var(--color-black);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 295px;
+    border: none;
+}
+
+.introduceWrapper{
+    position: relative;
+    top:392px;
+    width:1132px;
+    height: 174px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    margin-top: 0px;
+    width: 387px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 87.22px;
+}
+
+.line{
+    margin-right: 80px;
+    color: #6A6A6A;
+}
+
+.first{
+margin-top: 0px;
+font-family: "Inter";
+font-size: 32px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.second{
+font-family: "Inter";
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+width: 475px;
+opacity: 30%;
+}
